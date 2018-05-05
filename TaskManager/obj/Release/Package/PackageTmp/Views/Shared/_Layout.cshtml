@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/Site.css")
+        @Scripts.Render("~/bundles/modernizr")
+        @Scripts.Render("~/Scripts/source.js")
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <style>
+            body {
+                /*background: url(/Images/1.jpg) no-repeat;
+                background-size: 100%; /* Современные браузеры */
+            }
+            #menu{    background: #252328;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 60px;
+    z-index: 999;}
+            .month {
+                padding: 70px 25px;
+                width: 100%;
+                background: #1abc9c;
+                text-align: center;
+            }
+
+            /* Month list */
+            .month ul {
+                margin: 0;
+                padding: 0;
+            }
+
+            .month ul li {
+                color: white;
+                font-size: 20px;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+            }
+
+            .month .prev {
+                float: left;
+                padding-top: 10px;
+            }
+
+            .month .next {
+                float: right;
+                padding-top: 10px;
+            }
+
+            .weekdays {
+                margin: 0;
+                padding: 10px 0;
+                background-color: #ddd;
+            }
+
+            .weekdays li {
+                display: inline-block;
+                width: 13.6%;
+                color: #666;
+                text-align: center;
+            }
+
+            /* Days (1-31) */
+            .days {
+                padding: 10px 0;
+                background: #eee;
+                margin: 0;
+            }
+            #ae {
+                background-color: #e6eaee   !important;
+                box-shadow: -6px 0px 20px silver;
+            }
+
+            .days li {
+                list-style-type: none;
+                display: inline-block;
+                width: 13.6%;
+                text-align: center;
+                margin-bottom: 5px;
+                font-size: 12px;
+                color: #777;
+            }
+
+            .days li .active {
+                padding: 5px;
+                background: #1abc9c;
+                color: white !important;
+            }
+            .agenda tr:hover {
+                background-color: #ffff99;
+
+            }
+
+        </style>
+    </head>
+
+    <body onload="Init()" data-spy="" style="    background: #fefefe; overflow-x: hidden;">
+
+        <header id="menu">
+            <nav class="navbar navbar-fixed-left navbar-minimal animate" role="navigation" style="width:100%;">
+                <div class="navbar-toggler animate" style="position:static;">
+                    <span class="menu-icon"></span>
+                </div>
+                <ul class="navbar-menu animate">
+                    <li >
+                    <a href="/Home/Index" class="animate" style=" font-size: 20px; margin-left: -5px;">
+                        @*<span class="desc animate" style="z-index: 100"> Home </span>*@
+                        <div>
+                            <i class="fas fa-home"></i>
+                        </div>
+                    </a>
+                    </li>
+                    @if (ViewBag.UserForTag != null && ViewBag.UserForTag.Role == 1)
+                    {
+                        <li style="padding-top: 20px;">
+                            <a href="/Home/Tags" class="animate" style="font-size: 20px; margin-left: -5px;">
+                                @*<span class="desc animate" style="z-index: 100"> Tags</span>*@
+                                <div>
+                                    <i class="fas fa-tags"></i>
+                                </div>
+                            </a>
+                        </li>
+                    }
+
+                </ul>
+               
+               
+            </nav>
+
+        </header>
+
+        @*<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" style="margin-top: 6px;" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#" style=" font-size: 25px; ">Task Manager</a>
+
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault" style=" font-size: 18px; text-align: center;">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a style="    margin-top: 6px;" class="nav-link" href="/Home/Index">Home <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        @if (ViewBag.UserForTag != null && ViewBag.UserForTag.Role == 1)
+                        {
+                            <li class="nav-item active">
+                                <a style="margin-top: 6px;" class="nav-link" href="/Home/Tags">Tags <span class="sr-only">(current)</span></a>
+                            </li>
+                        }
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <ul class="nav pull-right">
+
+                            <li class="nav-item dropdown">
+
+                                <a style="color: whitesmoke;" class="nav-link dropdown-toggle" href="/Home/Index" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Welcome, @ViewBag.Name</a>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                    <a class="dropdown-item" href="/Account/Login">Logout</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </nav>*@
+
+        <div class="container" style="padding-top: 20px;width:100% !important;    padding-left: 80px;">
+
+            @RenderBody()
+        </div>
+
+
+        <footer></footer>
+        @Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>

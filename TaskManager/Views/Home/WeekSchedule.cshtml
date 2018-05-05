@@ -1,0 +1,419 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using System
+@model TaskManager.Models.Task
+<script src="~/Scripts/source.js"></script>
+<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0" style="z-index: 10 !important;box-shadow: 0px 1px 0px lightgrey; background-color: white;">
+    
+    @*<ul class="nav nav-pills">
+        <li class="nav-item"><a class="nav-link" href="/Home/TodaySchedules?id=@ViewBag.User.ID">Day</a></li>
+        <li class="nav-item"><a class="nav-link" href="/Home/NowWeekSchedules?id=@ViewBag.User.ID">Week</a></li>
+        <li class="nav-item"><a class="nav-link active" href="/Home/WeekSchedules?id=@ViewBag.User.ID">Month</a></li>
+
+    </ul>*@
+
+    <ul class="nav nav-tabs" style=" margin-left: 0px;    font-size: 15px;">
+        <li class="nav-item"><a class="nav-link" href="/Home/TodaySchedules?id=@ViewBag.User.ID">CurrentDay</a></li>
+        <li class="nav-item"><a class="nav-link" href="/Home/NowWeekSchedules?id=@ViewBag.User.ID">Week</a></li>
+        <li class="nav-item"><a class="nav-link active" href="/Home/WeekSchedules?id=@ViewBag.User.ID">Month</a></li>
+    </ul>
+    <br />
+    @if (ViewBag.MainUser.Role == 1)
+    {
+        <div style="display: flex;font-size: 20px;"> <p class="display-3" style="font-size: 20px">For </p> <p class="display-3" style="font-size: 20px;padding-left: 10px;color: firebrick;"> @ViewBag.User.Name</p></div>
+    }
+    <div class="page-header" style=" padding-top: 10px;">
+        <div>
+            <a href="/Home/WeekSchedules?id=@ViewBag.User.ID&date=@ViewBag.Back"><i style="font-size: 20px;"class="fas fa-chevron-circle-left"></i></a>
+            <a href="/Home/WeekSchedules?id=@ViewBag.User.ID&date=@ViewBag.Forward"><i style="font-size: 20px;"  class="fas fa-chevron-circle-right"></i></a>
+            <h1 id="str" style="display: inline; margin-left: 10px;">
+                Total for <h1 style="display: inline; color: #2331bd;">@ViewBag.Month</h1> <h1 style="display: inline;">: @ViewBag.Total</h1>
+            </h1>
+        </div>
+
+
+    </div>
+    @*<div class="form-inline">
+        <div class="form-check mb-2 mr-sm-2">
+            <input class="form-check-input" type="checkbox" id="inlineFormCheck" onclick='ChangeCheckBox(this)' />
+            <label class="form-check-label" for="inlineFormCheck" style="font-size: 17px;">
+               All Users
+            </label>
+        </div>
+        <label class="sr-only" for="inlineFormInputName2">Name</label>
+        <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Jane Doe">
+
+        <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+        <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+                <div class="input-group-text"></div>
+            </div>
+            <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
+        </div>
+
+        <script>
+            function ChangeCheckBox(box) {
+
+                var vis = (box.checked) ? 1 : 0;
+               if (vis == 1) {
+                   window.location.href = "/Home/WeekScheduleForAllUSers";
+               }
+            }
+
+        </script>
+
+        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+    </div>*@
+    <div >
+        <div  style="margin-top: 20px;">
+            <div  style="width: 100% !important; box-shadow: none; background: none; border: none;">
+                @if (ViewBag.Date != null)
+                {
+                    <a href="/Home/GetExcel?month=@ViewBag.Date.Month&year=@ViewBag.Date.Year&user=@ViewBag.User.ID" class="btn btn-primary btn-lg" id="excel">
+                        <i class="far fa-file-excel"></i>
+                        Get excel
+                    </a>
+                }
+                else
+                {
+                    <a href="/Home/GetExcel?mont=@DateTime.Now.Month&year=@DateTime.Now.Year&user=@ViewBag.User.ID" class="btn btn-primary btn-lg" id="excel">
+                        <i class="far fa-file-excel"></i>
+                        Get excel
+                    </a>
+                }
+
+            </div>
+        </div>
+    </div>
+
+    <br/>
+</nav>
+
+
+
+
+
+    <dialog id="window" style="    z-index: 13;max-height: 600px;
+    overflow: auto;width: 60%; border: none; box-shadow: rgba(162, 153, 153, 0.4) 0px 30px 70px 50px; border-radius: 6px; position: fixed; top: 100px;  background-color:white; display:none;">
+        <div class="modal-header">
+            <h1 style="display: inline;"><small></small></h1>
+
+            <br>
+        </div>
+        <br>
+        <a id="add_row" style="color: white;" class="btn btn-primary pull-left btn-lg">Add Row</a>
+        <br>
+        <h1 id="datedate"></h1>
+        <div>
+
+
+            <div>
+                <table class="table table-striped" id="tabke" style=" font-size: 17px;">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th style="max-width: 100px">Plan</th>
+                            <th>Result</th>
+                            <th>Time</th>
+
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div>
+                <button style="margin-left: 1%; color: white;" id='save_table' class="btn  btn-primary btn-lg float-right" disabled>Save</button>
+                <a id="close" class=" btn btn-secondary btn-lg float-right">
+                    Cancel
+                </a>
+            </div>
+        </div>
+    </dialog>
+
+    <div style="padding-top: 30px;">
+        <div>
+            <div class="agenda" style="" id="month_table">
+                <div class="table-responsive">
+          
+@for (int i = 1; i <= ViewBag.NowMonth; i++)
+{
+    <div class="block" style="margin-bottom: 30px;;background-color: whitesmoke;
+    border: 1px solid #d3d3d3; box-shadow: 8px 1px 6px lightgrey;    border-radius: 7px;">
+        
+        
+        <div style="display: inline-flex; padding-top: 20px; padding-bottom: 10px; padding-left: 20px;    color: #025aa5;">
+            <p style="font-size: 20px; line-height: 120% !important; font-weight: bold;  ">
+                <div style="    font-size: 40px; line-height: 120% !important;" class="dayofmonth">@i</div>
+                <div style=" font-weight: bold;display: -webkit-box;font-size: 17px;" class="dayofweek">@ViewBag.Now[ViewBag.Date.Month - 1], @ViewBag.Date.Year</div>
+                <div style="     width: 140px;font-size: 17px;line-height: 420%" class="shortdate text-muted">@((new DateTime(ViewBag.Date.Year, ViewBag.Date.Month, i)).DayOfWeek)</div>
+                <div class="col-md-6" style=" max-width: 70px !important;padding-left: 0px;">
+                    <button class="btn btn-secondary btn-lg" id="upsForWeek" onclick="addClick(@i)">
+                        <i class="fas fa-plus"></i> Add row
+                    </button>
+                </div>
+                <div class="col-md-6" style=" padding-left: 30px;max-width: 50px !important;">
+                    <button class="btn btn-secondary btn-lg" id="save_weektable" disabled="disabled" onclick="save_weektable(@i,@ViewBag.User.ID)">
+                        <i class="fas fa-save"></i>
+                        Save
+                    </button>
+                </div>
+</p>
+            <script>
+                
+                function successGetData(data) {
+                    var dialog = $(document.getElementsByClassName("block")[current - 1]).find("table");
+
+                    //if(val == undefined){
+                    var tbody = $(dialog).find("tbody")[0];
+                    var row = document.createElement("TR");
+                    var td0 = document.createElement("TD");
+                    td0.appendChild(document.createTextNode(""));
+                    var td2 = document.createElement("TD");
+                    var td1 = document.createElement("TD");
+                    td0.appendChild(document.createTextNode(""));
+                    td1.appendChild(document.createTextNode(""));
+                    var td2 = document.createElement("TD");
+                    td2.appendChild(document.createTextNode(""));
+                    var td3 = document.createElement("TD");
+                    td3.appendChild(document.createTextNode(""));
+                    td1.classList.add("agenda-date1");
+                    td0.style.height = "37px";
+                    td1.style.height = "37px";
+                    td2.style.height = "37px";
+                    td1.style.maxWidth = "200px";
+                    td1.style.fontSize = "17px";
+                    td0.style.fontSize = "17px";
+                    td2.classList.add("agenda-date1");
+                    td2.style.fontSize = "17px";
+                    td3.style.fontSize = "17px";
+                    td3.classList.add("eagenda-date");
+                    td2.style.maxWidth = "200px";
+                    td3.style.maxWidth = "200px";
+                    td2.style.width = "200px";
+                    td3.style.width = "200px";
+                    td0.style.width = "200px";
+                    td1.style.width = "200px";
+
+                    var a = document.createElement('div');
+                    a.class = "form-group form-control-lg";
+                    var select = document.createElement('select');
+
+                    a.appendChild(select);
+                    select.classList.add = "form-group form-control-lg";
+                    select.style.width = "100%";
+                    select.style.fontSize = "17px";
+                    select.style.height = "40px";
+                    var optionEmpty = document.createElement('option');
+                    optionEmpty.text = "";
+                    select.appendChild(optionEmpty);
+                    for (var i = 0; i < data.length; i++) {
+                        var option = document.createElement('option');
+                        option.text = data[i];
+                        select.appendChild(option);
+                    }
+                    var td4 = document.createElement("TD");
+
+                    td4.appendChild(a);
+                    td4.style.width = "50px";
+                    td4.style.maxWidth = "50px";
+                    row.appendChild(td0);
+                    row.appendChild(td1);
+                    row.appendChild(td2);
+                    row.style.background = "#a09a9a";
+                    row.style.color = "white";
+                    row.appendChild(td4);
+                    // row.appendChild(td5);
+                    tbody.appendChild(row);
+                    if (dialog[0] != null) {
+                        for (i = 0; i < dialog[0].rows.length; i++) {
+                            for (j = 0; j < dialog[0].rows[i].cells.length-1; j++) {
+                                dialog[0].rows[i].cells[j].onclick = onTDClick1;
+                            }
+                        }
+                    }
+}
+
+                var current = 0;
+                 
+
+                
+
+                function addClick(e) {
+                    current = e;
+                    jQuery.ajax({
+                        type: "POST",
+                        url: "/Home/GetTag",
+                        success: successGetData
+                    });
+
+                   
+                }
+                
+
+                function onTDClick1(e) {
+                    if ($(this).find("textarea").length == 0) {
+
+
+                        ($($($($($(this).parent()).parent()).parent()).parent()).parent()[0]).getElementsByClassName("btn")[1].disabled = false;
+
+                        var val = $(this).find("ert").html();
+                        if (val == undefined) {
+                            val = $($(this).find("div")).text();
+                        }
+                        val = $.trim(val);
+                        var style = 'style=" word-wrap: break-word; height:' +
+                            $(this).height() +
+                            'px; width:' +
+                            '100%;"';
+                        //style += 'style=" width:' + $(this)[0].getBoundingClientRect().width + 'px;"';
+                        var code = '<textarea type="textarea" id="edit" value="' + val + '" ' + style + '>' + val + '</textarea>';
+
+                        $(this).empty().append(code);
+                        $('#edit').focus();
+                    }
+                    $('#edit').blur(function() {
+                        var val = $(this).val();
+                        var a = $(this).parent();
+                        $(this).parent().empty();
+                        a.html(val);
+                        //a.css("width", "40%");
+                    });
+                }
+
+                function save_weektable(e,user) {
+               
+
+                    $($($(document.getElementsByClassName("block")[e - 1]).find("div")[0]).find(".btn")[1]).disabled = true;
+                    var table = $(document.getElementsByClassName("block")[e - 1]).find("table");
+
+                    var a = $($(table).find("tbody")).find("tr");
+                    var b =  $($($(document.getElementsByClassName("block")[e - 1]).find("div")[0]).find("div")[1]).text().split(',');
+                    document.getElementById('save_table').disabled = true;
+                    for (var i = 0; i < a.length; i++) {
+
+                        var elements =$(a[i]).find("td");
+                        var w = {
+                            PlanText: $(elements[0]).text().replace(/^\s*(.*)\s*$/, '$1'),
+                            PlanResult: $(elements[1]).text().replace(/^\s*(.*)\s*$/, '$1'),
+                            Time: $.trim($(elements[2]).text()),
+                            Id: $.trim($(elements[4]).text()),
+                            Day:  $($($(document.getElementsByClassName("block")[e - 1]).find("div")[0]).find("div")[0]).text(),
+                            Month: b[0],
+                            Year: b[1],
+                            User: user,
+                            Tag: $.trim($($(elements[3]).find("select option:selected")).val())
+                        };
+                        var person = { Name: "Sa" };
+                        $.post("/Home/People1", w, null, "json").done(function (data) {
+
+                            //window.location.href = "/Home/WeekSchedule?date=" + Day + "-" + Month + "-" + Year;
+                            location.reload();
+                        });
+                    }
+                    $(document.getElementById('window'))[0].removeAttribute("open");
+                    $(document.getElementById('window')).hide();
+                    //window.location.href = "/Home/WeekSchedule";
+               
+                }
+
+            </script>
+
+        </div>
+        <div style="padding-bottom: 10px; ">
+            <table id="week_table" class="table table-bordered">
+
+                <tbody>
+                    @foreach (var a in ViewBag.Task)
+                    {
+                        if (a.CreateDate.Month == ViewBag.Date.Month && a.CreateDate.Day == i)
+                        {
+                            <tr>
+                                <td class="cell" style="font-size: 17px;width: 5% !important; max-width: 50px;">
+                                    <div class="cell" style="word-wrap: break-word; width: 100% !important;">
+
+
+                                        @if (a.CreateDate.Month == ViewBag.Date.Month && a.CreateDate.Day == i)
+                                        {
+                                            <div style="white-space: pre-line"> @a.PlanText</div>
+
+                                        }
+
+                                    </div>
+                                </td>
+
+                                <td class="cell" style="font-size: 17px;width: 40% !important; max-width: 200px;">
+                                    <div class="cell" style="word-wrap: break-word; width: 100% !important;">
+
+
+                                        @if (a.CreateDate.Month == ViewBag.Date.Month && a.CreateDate.Day == i)
+                                        {
+                                            <div style="white-space: pre-line"> @a.ResultText</div>
+
+                                        }
+
+
+                                    </div>
+                                </td>
+
+                                <td class="cell" style="font-size: 17px;width: 40% !important; max-width: 200px;">
+                                    <div class="cell" style="word-wrap: break-word; width: 100% !important;">
+
+
+                                        @if (a.CreateDate.Month == ViewBag.Date.Month && a.CreateDate.Day == i)
+                                        {
+                                            <div style="white-space: pre-line"> @a.Time</div>
+
+                                        }
+
+
+                                    </div>
+                                </td>
+                                <td class="tagCell" style="font-size: 17px;word-wrap: break-word; width: 40%; max-width: 200px;">
+                                    <div style="width:100%" class="tagCell">
+                                        <ul>
+
+                                            @if (a.CreateDate.Month == ViewBag.Date.Month && a.CreateDate.Day == i)
+                                            {
+                                                if (@a.Tag != null)
+                                                {
+                                                    <li>@a.Tag.Name</li>
+                                                }
+                                                else
+                                                {
+                                                    <li> </li>
+                                                }
+
+
+
+                                            }
+                                        </ul>
+                                    </div>
+
+                                </td>
+
+                                <td style="display: none; visibility: hidden; width: 1px;" class="agenda-date" class="active" rowspan="1">
+                                    <ul>
+                                      
+                                            @if (a.CreateDate.Month == ViewBag.Date.Month && a.CreateDate.Day == i)
+                                            {
+                                                <li>@a.Id</li>
+
+                                            }
+
+                                    </ul>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+}
+                </div>
+            </div>
+
+        </div>
+    </div>

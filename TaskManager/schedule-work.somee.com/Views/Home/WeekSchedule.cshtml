@@ -1,0 +1,232 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model TaskManager.Models.Task
+
+<ul class="nav nav-tabs">
+    <li><a href="/Home/Todaychedules">CurrentDay</a></li>
+    <li><a>Week</a></li>
+    <li class="active"><a href="/Home/WeekSchedule/@ViewBag.User.ID">Month</a></li>
+</ul>
+<br />
+<div class="page-header">
+    <div>
+        <a href="/Home/WeekSchedule?date=@ViewBag.Back"><img src="../../Images/768px-Angle_left_font_awesome.svg.png" style=" height: 34px; margin-top: -20px; cursor: pointer; display: inline; display: inline; border: 1px solid #EAEAEA;"></img></a>
+        <a href="/Home/WeekSchedule?date=@ViewBag.Forward"><img src="../../Images/Angle_right_font_awesome.svg.png" style="height: 34px; margin-top: -20px; cursor: pointer; display: inline; display: inline; margin-left: -5px; border: 1px solid #EAEAEA;"></img></a>
+        <h1 id="str" style="display: inline; margin-left: 10px;">
+            Total for <h1 style="display: inline; color: #2331bd;">@ViewBag.Month</h1> <h1 style="display: inline;">: @ViewBag.Total</h1>
+        </h1>
+    </div>
+   
+    @*<form class="months">
+        <div style=" margin-top: -34px; margin-left: 450px">
+            <div class="form-row">
+                <div class="col">
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                </div>
+
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary pull-left">Go!</button>
+            </div>
+        </div>
+     
+            
+    </form>*@
+    
+</div>
+
+
+<div class="container" style="width: 2800px !important;">
+    <div class="container">
+        <div class="row" style="margin-right: -100px !important; margin-left: -840px !important;">
+            <div class="col-md-12 well" style="width: 100% !important; box-shadow: none; background: none; border: none;">
+
+                <button class="btn btn-primary" id="excel">
+                    <span class="glyphicon glyphicon-list-alt"></span> Get excel
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<dialog id="window" style="width: 60%; border: none; box-shadow: rgba(162, 153, 153, 0.4) 0px 30px 70px 50px; border-radius: 6px; position: fixed; top: 60px;">
+    <div class="modal-header">
+        <h1 style="display: inline;"><small></small></h1>
+
+        <br>
+    </div>
+    <br>
+    <a id="add_row" class="btn btn-primary pull-left">Add Row</a>
+    <br>
+    <h1 id="datedate"></h1>
+    <div>
+
+
+        <div>
+            <table class="table table-condensed table-bordered" id="tabke">
+                <thead>
+                <tr>
+                    @*<th>Date</th>*@
+                    <th>#</th>
+                    <th style="max-width: 100px">Plan</th>
+                    <th>Result</th>
+                    <th>Time</th>
+
+                </tr>
+                </thead>
+                <tbody>
+
+
+                @*<tr id="addr">
+                    <td id="id">
+                        <p>1</p>
+                    </td>
+                    <td class="agenda-date1" class="active" rowspan="1"></td>
+
+                    <td class="agenda-date1" style="width: 40%">
+                        <div class="agenda-date1" style="word-wrap: break-word; width: 50% !important;">
+
+
+
+                        </div>
+                    </td>
+
+                    <td class="agenda-date1" style="word-wrap: break-word; width: 40%;">
+                        <div class="agenda-date1">
+
+
+
+                        </div>
+
+                    </td>
+                </tr>
+
+
+                 Single event in a single day*@ 
+
+                </tbody>
+            </table>
+        </div>
+        <a style="margin-left:86%; " id="close" class="btn btn-danger btn-sm" type="button" style="">
+            Cancel
+        </a>
+       
+      
+        <a  id='save_table' class="btn btn-success btn-sm">Save</a>
+    </div>
+</dialog>
+
+
+    <div class="agenda" style="width: 105%;" id="month_table">
+        <div class="table-responsive">
+            <table class="table table-condensed table-bordered">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Plan</th>
+                        <th>Result</th>
+                        <th>Time</th>
+                     
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @for (int i = 1; i <= ViewBag.NowMonth; i++)
+                    {
+                     <tr>
+                         
+
+                         <td class="agenda-date" class="active" rowspan="1" >
+                             <div class="dayofmonth">@i</div>
+                             <div class="dayofweek">@((new DateTime(ViewBag.Date.Year, ViewBag.Date.Month, i)).DayOfWeek)</div>
+                             <div class="shortdate text-muted">@ViewBag.Now[ViewBag.Date.Month-1], @ViewBag.Date.Year</div>
+                         </td>
+
+
+
+
+        <td class="agenda-date" style="width: 40% !important; max-width: 200px;" >
+            <div class="agenda-date" style="word-wrap: break-word; width: 100% !important;">
+                <ul type="square">
+                    @foreach (var a in ViewBag.Task)
+                    {
+                        if (a.CreateDate.Month == ViewBag.Date.Month && a.CreateDate.Day == i)
+                        {
+                            <li> @a.PlanText</li>
+
+                        }
+                    }
+                </ul>
+            </div>
+        </td>
+                         
+                         <td class="agenda-date" style="word-wrap: break-word; width: 40%;  max-width: 200px;">
+                             <div style="width:100%" class="agenda-date s">
+                                 <ul type="square">
+                                     @foreach (var a in ViewBag.Task)
+                                     {
+                                         if (a.CreateDate.Month == ViewBag.Date.Month && a.CreateDate.Day == i)
+                                         {
+                                             <li>@a.ResultText</li>
+
+                                         }
+                                     }
+                                 </ul>
+                             </div>
+
+                         </td>  
+
+                         <td class="agenda-date" style="word-wrap: break-word; width: 40%; max-width: 200px;">
+                         <div style ="width:100%"class="agenda-date s">
+                             <ul>
+                                 @foreach (var a in ViewBag.Task)
+                                 {
+                                     if (a.CreateDate.Month == ViewBag.Date.Month && a.CreateDate.Day == i)
+                                     {
+                                         <li>@a.Time</li>
+
+                                     }
+                                 }
+                     </ul>
+                             </div>
+
+                         </td>   
+                           
+                         <td style=" visibility: hidden; width: 1px;" class="agenda-date" class="active" rowspan="1">
+                             <ul>
+                                 @foreach (var a in ViewBag.Task)
+                                 {
+                                     if (a.CreateDate.Month == ViewBag.Date.Month && a.CreateDate.Day == i)
+                                     {
+                                         <li>@a.Id</li>
+
+                                     }
+  
+                                 }
+                             </ul>
+                         </td>     
+    </tr>
+                        
+                        
+                    }
+                    
+                    <!-- Single event in a single day -->
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>

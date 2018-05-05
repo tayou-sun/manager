@@ -1,0 +1,138 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<html>
+<head>
+    <title>TaskManager</title>
+</head>
+<body>
+
+    <h1 class="page-header"> Today @DateTime.Today.ToShortDateString() <small>@DateTime.Now.DayOfWeek</small></h1>
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 well" style="    border: none;
+                                      background: none;
+                                      box-shadow: none;">
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal-1">Create</button>
+                        <div class="container">
+                            <div class="row" style=" width: 350px; /* position: inherit; */ margin-top: -34px; /* display: inline; */ margin-left: 80px;">
+                                <div id="custom-search-input">
+                                    <div class="input-group col-md-12">
+                                        <input id="text_search" type="text" class="  search-query form-control" placeholder="Search" />
+                                        <span class="input-group-btn">
+                                            <button id="button_search" class="btn btn-danger" type="button">
+                                                <span class=" glyphicon glyphicon-search"></span>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="modal-1">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button class="close" type="button" data-dismiss="modal">X</button>
+                                    <h4 class="modal-title">Create user</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <form method="post" action="/Home/UserCreate">
+                                        <p>
+                                            <input class="form-control" placeholder="Name" type="text" name="Name" />
+                                        </p>
+
+                                        <p>
+                                            <input class="form-control" placeholder="Email" type="text" name="Email" />
+                                        </p>
+
+                                        <p>
+                                            <input class="form-control" placeholder="Position" type="text" name="Position" />
+                                        </p>
+
+                                        <p>
+                                            <input class="form-control" placeholder="Role" type="text" name="Role" />
+                                        </p>
+
+                                        <p>
+                                            <input class="form-control" placeholder="Login" type="text" name="Login" />
+                                        </p>
+
+                                        <p>
+                                            <input class="form-control" placeholder="Password" type="text" name="Password" />
+                                        </p>
+
+                                        <input class="btn btn-info" type="submit" value="Отправить" />
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="table table-hover" style="background-color: rgba(255, 255, 255, .7);">
+                        <tbody>
+
+                            @foreach (var u in ViewBag.User)
+                            {
+                                <tr>
+                                    <td>
+                                        <a href="#"><i class="-alt fa fa-2x fa-eye fa-fw"></i></a>
+                                    </td>
+                                    <td>
+                                        <h4>
+                                            <b>@u.Name.Position</b>
+                                        </h4>
+                                    </td>
+                                    <td>
+                                        <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png" class="img-circle" width="60">
+                                    </td>
+                                    <td>
+                                        <h4>
+                                            <b>
+                                                <a href="/Home/WeekSchedule/@u.Name.ID">@u.Name.Name</a>
+                                            </b>
+                                        </h4>
+                                        @u.Name.Email
+                                    </td>
+                                    <td style="font-weight: bold; font-size: 20px;">
+                                        @u.Sum
+                                    </td>
+                                    <td style="font-weight: bold; font-size: 20px;">
+                                        @u.Date
+                                    </td>
+                                    @*<div class="btn-group">
+                                            <button class="btn btn-default" value="left" type="button">
+                                                <i class="fa fa-fw s fa-remove"></i>Edit
+                                            </button>
+                                            <button class="btn btn-default" value="right" type="button">
+                                                <i class="fa fa-fw fa-cog"></i>Delete
+                                            </button>
+                                        </div>*@
+
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

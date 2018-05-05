@@ -1,0 +1,98 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<html>
+<head>
+    <title>TaskManager</title>
+</head>
+<body>
+
+    <h1 class="page-header">Users</h1>
+    
+    <div class="section">
+        <div class="container">
+            <div  style="margin-right: -85px !important; margin-left: -85px !important;">
+                <div class="col-md-12 well" >
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-1">Create</button>
+                    </div>
+
+                    <div class="modal fade" id="modal-1">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button class="close" type="button" data-dismiss="modal">X</button>
+                                    <h4 class="modal-title">Политика конфиденциальности</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <form method="post" action="/Home/UserCreate">
+                                        <p>
+                                            <input placeholder="План" type="text" name="Name" />
+                                        </p>
+
+
+                                        <input type="submit" value="Отправить" />
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="table table-hover table-striped">
+                        <tbody>
+@foreach (var u in ViewBag.User)
+{ 
+                            <tr>
+                                <td>
+                                    <a href="#"><i class="-alt fa fa-2x fa-eye fa-fw"></i></a>
+                                </td>
+                                <td>
+                                    <h4>
+                                        <b>Profession</b>
+                                    </h4>
+                                </td>
+                                <td>
+                                    <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png" class="img-circle" width="60">
+                                </td>
+                                <td>
+                                    <h4>
+                                        <b>
+                                            <a href="/Home/WeekSchedule/@u.ID">@u.Name</a>
+                                        </b>
+                                    </h4>
+                                   @u.Name gmail.com
+                                </td>
+                                <td>0 year</td>
+                                <td>
+                                    <div class="btn-group">
+                                        <button class="btn btn-default" value="left" type="button">
+                                            <i class="fa fa-fw s fa-remove"></i>Edit
+                                        </button>
+                                        <button class="btn btn-default" value="right" type="button">
+                                            <i class="fa fa-fw fa-cog"></i>Delete
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+}
+                            </tbody>
+                        </table>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+</body>
+</html>

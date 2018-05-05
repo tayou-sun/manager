@@ -1,0 +1,120 @@
+﻿@using System
+<table class="table table-striped">
+    <thead style="font-size: 20px;font-weight: bold;">
+        <tr>
+            <th>Date</th>
+            <th>Plan</th>
+            <th>Result</th>
+            <th>Time</th>
+            <th>Tag</th>
+        </tr>
+    </thead>
+    <tbody style="font-weight: normal;">
+
+        @for (int i = 1; i <= ViewBag.NowMonth; i++)
+        {
+            <tr style="    width: 200px;">
+
+            @*<td class="agenda-date" class="active" rowspan="1">
+                    <div style="    font-size: 40px; line-height: 120% !important;" class="dayofmonth">@i</div>
+                    <div style="     width: 140px;font-size: 17px;" class="dayofweek">@((new DateTime(ViewBag.Date.Year, ViewBag.Date.Month, i)).DayOfWeek)</div>
+                    <div style=" display: -webkit-box;font-size: 17px;" class="shortdate text-muted">@ViewBag.Now[ViewBag.Date.Month - 1], @ViewBag.Date.Year</div>
+                </td>*@
+              
+    
+
+
+
+                <td class="agenda-date" style="font-size: 17px;width: 40% !important; max-width: 200px;">
+                    <div class="agenda-date" style="word-wrap: break-word; width: 100% !important;">
+                        <ul>
+                            @foreach (var a in ViewBag.Task)
+                            {
+                                if (a.CreateDate.Month == ViewBag.Date.Month && a.CreateDate.Day == i)
+                                {
+                                    <li style="white-space: pre-line"> @a.PlanText</li>
+
+                                }
+                            }
+                        </ul>
+                    </div>
+                </td>
+
+                <td class="agenda-date" style="font-size: 17px;word-wrap: break-word; width: 40%;  max-width: 200px;">
+                    <div style="width:100%" class="agenda-date s">
+                        <ul>
+                            @foreach (var a in ViewBag.Task)
+                            {
+                                if (a.CreateDate.Month == ViewBag.Date.Month && a.CreateDate.Day == i)
+                                {
+                                    <li style="white-space: pre-line">@a.ResultText</li>
+
+                                }
+                            }
+                        </ul>
+                    </div>
+
+                </td>
+
+                <td class="agenda-date" style="font-size: 17px;word-wrap: break-word; width: 50px; max-width: 50px;">
+                    <div style="width:100%" class="agenda-date s">
+                        <ul>
+                            @foreach (var a in ViewBag.Task)
+                            {
+                                if (a.CreateDate.Month == ViewBag.Date.Month && a.CreateDate.Day == i)
+                                {
+                                    <li>@a.Time</li>
+
+                                }
+                            }
+                        </ul>
+                    </div>
+
+                </td>
+
+                <td class="agenda-date" style="font-size: 17px;word-wrap: break-word; width: 200px; max-width: 200px;">
+                    <div style="width:100%" class="agenda-date s">
+                        <ul>
+                            @foreach (var a in ViewBag.Task)
+                            {
+                                if (a.CreateDate.Month == ViewBag.Date.Month && a.CreateDate.Day == i)
+                                {
+                                    if (@a.Tag != null)
+                                    {
+                                        <li>@a.Tag.Name</li>
+                                    }
+                                    else
+                                    {
+                                        <li> </li>
+                                    }
+
+
+                                }
+                            }
+                        </ul>
+                    </div>
+
+                </td>
+
+                <td style="display: none; visibility: hidden; width: 1px;" class="agenda-date" class="active" rowspan="1">
+                    <ul>
+                        @foreach (var a in ViewBag.Task)
+                        {
+                            if (a.CreateDate.Month == ViewBag.Date.Month && a.CreateDate.Day == i)
+                            {
+                                <li>@a.Id</li>
+
+                            }
+
+                        }
+                    </ul>
+                </td>
+            </tr>
+
+
+        }
+
+        <!-- Single event in a single day -->
+
+    </tbody>
+</table>

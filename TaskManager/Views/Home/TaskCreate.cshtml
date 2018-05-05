@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "TaskCreate";
+}
+<form method="post" action="">
+    <input  type ="hidden" value="@ViewBag.User.ID" name="id" />
+    <p>
+        <input placeholder="План" type="text" name="PlanText" /> 
+    </p>
+    <p>
+        <input placeholder="Результат" type="are" name="ResultText" />
+    </p>
+    <p>
+        <input placeholder="Время работы" type="text" name="CreateDate" />
+    </p>
+    <p>
+        <input placeholder="Конец" type="datetime" name="EndDate" />
+    </p>
+    <p>
+        <input placeholder="Начало" type="datetime" name="StartDate" />
+    </p>
+
+<input type="submit" value="Отправить" /> 
+</form>

@@ -1,0 +1,221 @@
+﻿@using System
+@using System.Activities.Statements
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    
+
+.Container {
+    padding: 0;
+    margin: 0;
+}
+
+.Container li {
+    list-style-type: none;
+}
+
+
+/* indent for all tree children excepts root */
+.Node {
+    background-image : url(img/i.gif);
+    background-position : top left;
+    background-repeat : repeat-y;
+    margin-left: 18px;
+    zoom: 1;
+}
+
+.IsRoot {
+    margin-left: 0;
+}
+
+
+/* left vertical line (grid) for all nodes */
+.IsLast {
+    background-image: url(img/i_half.gif);
+    background-repeat : no-repeat;
+}
+
+.ExpandOpen .Expand {
+    background-image: url('../../Images/minus.png');
+    background-size: 10px;
+    background-repeat: no-repeat;
+}
+
+/* closed is higher priority than open */
+.ExpandClosed .Expand {
+    background-image: url('../../Images/plus.png');
+    background-size: 10px;
+    background-repeat: no-repeat;
+}
+
+/* highest priority */
+.ExpandLeaf .Expand {
+    background-image: url(img/expand_leaf.gif);
+}
+
+.Content {
+    min-height: 18px;
+    margin-left:18px;
+}
+
+* html .Content {
+    height: 18px;
+}
+
+.Expand {
+    width: 18px;
+    height: 18px;
+    float: left;
+}
+
+
+.ExpandOpen .Container {
+        display: block;
+}
+
+.ExpandClosed .Container {
+        display: none;
+}
+
+.ExpandOpen .Expand, .ExpandClosed .Expand {
+        cursor: pointer;
+}
+.ExpandLeaf .Expand {
+        cursor: auto;
+}
+
+
+</style>
+<script>
+
+
+    function tree_toggle(event) {
+        event = event || window.event
+        var clickedElem = event.target || event.srcElement
+
+        if (!hasClass(clickedElem, 'Expand')) {
+            return // клик не там
+        }
+
+        // Node, на который кликнули
+        var node = clickedElem.parentNode
+        if (hasClass(node, 'ExpandLeaf')) {
+            return // клик на листе
+        }
+
+        // определить новый класс для узла
+        var newClass = hasClass(node, 'ExpandOpen') ? 'ExpandClosed' : 'ExpandOpen'
+        // заменить текущий класс на newClass
+        // регексп находит отдельно стоящий open|close и меняет на newClass
+        var re = /(^|\s)(ExpandOpen|ExpandClosed)(\s|$)/
+        node.className = node.className.replace(re, '$1' + newClass + '$3')
+    }
+
+
+    function hasClass(elem, className) {
+        return new RegExp("(^|\\s)" + className + "(\\s|$)").test(elem.className)
+    }
+
+</script>
+
+<div>
+    <div>
+        <div class="agenda" style="" id="month_table">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead style="font-size: 20px;font-weight: bold;">
+                        <tr>
+                            <th>Date</th>
+                            <th>Plan</th>
+                            <th>Result</th>
+                            <th>Time</th>
+                            <th>Tag</th>
+                        </tr>
+                    </thead>
+                    <tbody style="font-weight: normal;">
+
+                        @for (int i = 1; i <= DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Month); i++)
+                        {
+                            <tr style="width: 200px;">
+                                
+                                <td class="agenda-date" style="font-size: 17px;width: 40% !important; max-width: 200px;">
+                                   @foreach (var u in ViewBag.Users)
+                                   {
+                                       if (u.Tasks.Count != null)
+                                       {
+                                           <div onclick=" tree_toggle(arguments[0]) ">
+                                        
+                                               <ul class="Container">
+                                                   <li class="Node IsRoot IsLast ExpandClosed">
+                                                       <div class="Expand"></div>
+                                                       <div class="Content">@u.Name </div>
+                                                       <ul class="Container">
+                                                           @foreach (var t in @u.Tasks)
+                                                           {
+                                                            if (t.CreateDate.Month == DateTime.Now.Month && t.CreateDate.Day == i)
+                                                             {
+
+                                                                 <li class="Node ExpandClosed">
+                                                                   @*  <div class="Expand"></div>*@
+                                                                     <div class="Content">@t.PlanText</div>
+                                                                 </li>
+                                                             }
+                                                           }
+                                                       </ul>
+                                                   </li>
+                                               </ul>
+
+                                           </div>
+                                       }
+                                   }
+                                    
+                                </td>
+
+                               
+                                <td class="agenda-date" style="font-size: 17px;width: 40% !important; max-width: 200px;">
+                                    @foreach (var u in ViewBag.Users)
+                                    {
+                                        if (u.Tasks.Count != null)
+                                        {
+                                            <div onclick=" tree_toggle(arguments[0]) ">
+
+                                                <ul class="Container">
+                                                    <li class="Node IsRoot IsLast ExpandClosed">
+                                                        <div class="Expand"></div>
+                                                        <div class="Content">@u.Name </div>
+                                                        <ul class="Container">
+                                                            @foreach (var t in @u.Tasks)
+                                                            {
+                                                                if (t.CreateDate.Month == DateTime.Now.Month && t.CreateDate.Day == i)
+                                                                {
+
+                                                                    <li class="Node ExpandClosed">
+                                                                        @*  <div class="Expand"></div>*@
+                                                                        <div class="Content">@t.ResultText</div>
+                                                                    </li>
+                                                                }
+                                                            }
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                        }
+                                    }
+
+                                </td>
+                            </tr>
+
+
+                        }
+
+                        <!-- Single event in a single day -->
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>

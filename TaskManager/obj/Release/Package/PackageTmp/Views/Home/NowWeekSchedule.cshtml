@@ -1,0 +1,166 @@
+﻿@using System
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0" style="z-index: 10 !important;box-shadow: 0px 1px 0px lightgrey; padding-bottom: 20px !important; background-color: white;">
+    <div>
+        <ul class="nav nav-tabs" style=" margin-left: 0px;    font-size: 15px;">
+            <li class="nav-item"><a class="nav-link" href="/Home/TodaySchedules?id=@ViewBag.User.ID">CurrentDay</a></li>
+            <li class="nav-item"><a class="nav-link active" href="/Home/NowWeekSchedules?id=@ViewBag.User.ID">Week</a></li>
+            <li class="nav-item"><a class="nav-link" href="/Home/WeekSchedules?id=@ViewBag.User.ID">Month</a></li>
+        </ul>
+    </div>
+
+    @if (ViewBag.MainUser.Role == 1)
+    {
+        <div style="display: flex;font-size: 26px; padding-top: 1%;"> <p class="display-3" style="font-size: 26px">For </p> <p class="display-3" style="font-size: 26px;padding-left: 10px;color: firebrick;"> @ViewBag.User.Name</p></div>
+    }
+
+    <div class="page-header" style=" padding-top: 2%;    padding-bottom: 2%;">
+        <a href="/Home/NowWeekSchedules?id=@ViewBag.User.ID&date=@ViewBag.Back"><img src="../../Images/768px-Angle_left_font_awesome.svg.png" style=" height: 34px; margin-top: -20px; cursor: pointer; display: inline; display: inline; border: 1px solid #EAEAEA;"></img></a>
+        <a href="/Home/NowWeekSchedules?id=@ViewBag.User.ID&date=@ViewBag.Forward"><img src="../../Images/Angle_right_font_awesome.svg.png" style="height: 34px; margin-top: -20px; cursor: pointer; display: inline; display: inline; margin-left: -5px; border: 1px solid #EAEAEA;"></img></a>
+        <h1 id="str" style="display: inline; margin-left: 10px;">
+            Total for <h1 style="display: inline; color: #2331bd;">@ViewBag.Month</h1> <h1 style="display: inline;">: @ViewBag.Total</h1>
+        </h1>
+    </div>
+</nav>
+
+
+    <dialog id="window" style="max-height: 600px;
+    overflow: auto;width: 60%; border: none; box-shadow: rgba(162, 153, 153, 0.4) 0px 30px 70px 50px; border-radius: 6px;  background-color:white; display:none;">
+        <div class="modal-header">
+            <h1 style="display: inline;"><small></small></h1>
+
+            <br>
+        </div>
+        <br>
+        <a id="add_row" style="color: white;" class="btn btn-primary pull-left btn-lg">Add Row</a>
+        <br>
+        <h1 id="datedate"></h1>
+        <div>
+
+
+            <div>
+                <table class="table table-condensed table-bordered" id="tabke" style="font-size:17px;">
+                    <thead>
+                        <tr>
+                            @*<th>Date</th>*@
+                            <th>#</th>
+                            <th style="max-width: 100px">Plan</th>
+                            <th>Result</th>
+                            <th>Time</th>
+
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <a style="margin-left: 1%; color: white;" id='save_table' class=" btn btn-primary btn-lg float-right">Save</a>
+
+            <a id="close" class="btn btn-secondary btn-lg float-right" type="button" style="">
+                Cancel
+            </a>
+
+
+        </div>
+    </dialog>
+
+    <div class="agenda">
+        <div class="table-responsive">
+            <table class="table table-condensed table-bordered">
+                <thead style="font-size: 20px;font-weight: bold;">
+                    <tr>
+                        <th>Date</th>
+                        <th>Plan</th>
+                        <th>Result</th>
+                        <th>Time</th>
+
+                    </tr>
+                </thead>
+                <tbody style="font-weight: normal;">
+                    @for (int i = ViewBag.Day; i < ViewBag.Days - 1; i++)
+                    {
+                        <tr>
+
+
+                            <td class="agenda-date" class="active" rowspan="1">
+                                <div style="    font-size: 40px; line-height: 120% !important;" class=" dayofmonth">@i</div>
+                                <div style="     width: 140px;font-size: 17px;" class="dayofweek">@(new DateTime(ViewBag.Year, ViewBag.Month1, i).DayOfWeek)</div>
+                                <div style=" display: -webkit-box;font-size: 17px;" class="shortdate text-muted">@ViewBag.Month, @ViewBag.Year</div>
+                            </td>
+
+
+
+
+                            <td class="agenda-date" style="width: 40% !important; font-size: 17px;max-width: 200px;">
+                                <div class="agenda-date" style="word-wrap: break-word; width: 100% !important;">
+                                    <ul>
+                                        @foreach (var a in ViewBag.Task)
+                                        {
+                                            if (a.CreateDate.Month == @ViewBag.Month1 && a.CreateDate.Day == i)
+                                            {
+                                                <li style="white-space: pre-line"> @a.PlanText</li>
+
+                                            }
+                                        }
+                                    </ul>
+                                </div>
+                            </td>
+
+                            <td class="agenda-date" style="word-wrap: break-word; width: 40%; font-size: 17px; max-width: 200px;">
+                                <div style="width:100%" class="agenda-date s">
+                                    <ul>
+                                        @foreach (var a in ViewBag.Task)
+                                        {
+                                            if (a.CreateDate.Month == ViewBag.Month1 && a.CreateDate.Day == i)
+                                            {
+                                                <li style="white-space: pre-line">@a.ResultText</li>
+
+                                            }
+                                        }
+                                    </ul>
+                                </div>
+
+                            </td>
+
+                            <td class="agenda-date" style="word-wrap: break-word; width: 40%; font-size: 17px;max-width: 200px;">
+                                <div style="width:100%" class="agenda-date s">
+                                    <ul>
+                                        @foreach (var a in ViewBag.Task)
+                                        {
+                                            if (a.CreateDate.Month == ViewBag.Month1 && a.CreateDate.Day == i)
+                                            {
+                                                <li>@a.Time</li>
+
+                                            }
+                                        }
+                                    </ul>
+                                </div>
+
+                            </td>
+
+                            <td style=" visibility: hidden; width: 1px; display: none;" class="agenda-date" class="active" rowspan="1">
+                                <ul>
+                                    @foreach (var a in ViewBag.Task)
+                                    {
+                                        if (a.CreateDate.Month == ViewBag.Month1 && a.CreateDate.Day == i)
+                                        {
+                                            <li>@a.Id</li>
+
+                                        }
+
+                                    }
+                                </ul>
+                            </td>
+                        </tr>
+
+
+                    }
+
+                    <!-- Single event in a single day -->
+
+                </tbody>
+            </table>
+        </div>
+    </div>

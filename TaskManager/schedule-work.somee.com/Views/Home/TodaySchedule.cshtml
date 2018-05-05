@@ -1,0 +1,94 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div>
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="/Home/TodaySchedule">CurrentDay</a></li>
+        <li><a>Week</a></li>
+        <li><a href="/Home/WeekSchedules">Month</a></li>
+    </ul>
+</div>
+<div class="page-header">
+    <a href="/Home/TodaySchedule?date=@ViewBag.Back"><img src="../../Images/768px-Angle_left_font_awesome.svg.png" style="height: 34px; margin-top: -20px; cursor: pointer; display: inline; display: inline; margin-left: -5px; border: 1px solid #EAEAEA;"></img></a>
+    <a href="/Home/TodaySchedule?date=@ViewBag.Forward"><img src="../../Images/Angle_right_font_awesome.svg.png" style="height: 34px; margin-top: -20px; cursor: pointer; display: inline; display: inline; margin-left: -5px; border: 1px solid #EAEAEA;"></img></a>
+    <h1 id="str" style="display: inline;padding-left: 10px;"> @ViewBag.TodayDate <small>@ViewBag.TodayMonth</small>
+    </h1>
+</div>
+
+<div class="container" style="width: 2800px !important;">
+    <div class="container">
+        <div class="row" style="margin-right: -100px !important; margin-left: -840px !important;">
+            <div class="col-md-12 well" style="width: 100% !important; box-shadow: none; background: none; border: none;">
+
+                <button class="btn btn-primary" id="ups">
+                    <span class="glyphicon glyphicon-plus"></span> Add row
+                </button>
+                <button class="btn btn-primary" id="sup" disabled>
+                    <span class="glyphicon glyphicon-floppy-disk"></span>
+                    Save
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="agenda" style="font-weight: bold; width: 106%;">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="upss">
+                <thead>
+                    <tr>
+                        <th style="width: 200px; ">Plan</th>
+                        <th style="width: 200px;">Result</th>
+                        <th style="width: 200px;">Time</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @for (int i = 0; i < (ViewBag.Task).Count; i++)
+                    {
+                        <tr>
+
+                            <td class="agenda-date" style="width: 200px; word-wrap: break-word !important; max-width: 200px !important;">
+                                <div class="agenda-date" style="width: 100% !important;word-wrap: break-word;">
+                                    
+
+                                        @ViewBag.Task[i].PlanText
+                                    
+                                </div>
+                            </td>
+
+                            <td class="agenda-date" style="word-wrap: break-word; width: 200px; max-width: 200px !important; ">
+                                <div style="width: 100% !important;" class="agenda-date s">
+                                   
+
+                                        @ViewBag.Task[i].ResultText
+
+                                </div>
+
+                            </td>
+
+                            <td class="agenda-date" style="word-wrap: break-word; width: 200px; max-width: 200px !important; ">
+                                <div style="width: 100% !important;" class="agenda-date s">
+
+                                    @ViewBag.Task[i].Time.ToString()
+
+                                </div>
+
+                            </td>
+                            <td style="visibility: hidden; width:1px;" class="agenda-date" class="active" rowspan="1">
+
+                                        @ViewBag.Task[i].Id
+
+
+                                
+                            </td>   
+                        </tr>
+
+
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>

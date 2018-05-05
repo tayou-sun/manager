@@ -1,0 +1,117 @@
+﻿@model TaskManager.Models.LoginModel
+
+@{
+    ViewBag.Title = "Login";
+}
+
+
+
+<html>
+<head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        body {
+            background: url(/Images/3.jpg) no-repeat;
+            background-size: 100%;  /*Современные браузеры*/ 
+            /*background-color: white;*/
+        }
+
+        .login-form {
+            background-color: #363636;
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            margin: 150px auto;
+            width: 30%;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 30px 70px 50px rgba(0, 0, 0, 0.3);
+        }
+            .login-form h1 {
+                background-color: #292829;
+                border-radius: 5px 5px 0px 0px;
+                -moz-border-radius: 5px 5px 0px 0px;
+                -webkit-border-radius: 5px 5px 0px 0px;
+                /* color: #fff; */
+                padding: 20px;
+                text-align: center;
+                /* text-transform: uppercase; */
+                font-family: 'Open Sans', sans-serif;
+                font-size: 20px;
+            }
+
+        h1 {
+            display: block;
+            font-size: 2em;
+            -webkit-margin-before: 0.67em;
+            -webkit-margin-after: 0.67em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+            font-weight: bold;
+            color: white;
+        }
+            .login-form fieldset {
+                border: none;
+                padding: 20px;
+                position: relative;
+            } 
+        .form-signin-heading {
+            text-align: center;
+        }
+
+        .head {
+            width: 100%;
+            border-bottom: 1px solid rgba(0,0,2,0.1); /* Параметры границы */
+        }
+    </style>
+
+</head>
+<body>
+
+
+<div class="login-form">
+
+    
+        <h1 >Welcome to our site!</h1>
+        @*<h3 class="form-signin-heading"> Please, log in:</h3>*@
+
+
+        <fieldset style="background-color: #363636;">
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-horizontal">
+                    @Html.ValidationSummary(true)
+
+                    @Html.TextBoxFor(model => model.Login, new { @class = "form-control", placeholder = "Login" })
+
+                    <br>
+                    @Html.PasswordFor(model => model.Password, new { @class = "form-control", placeholder = "Password" })
+
+                    <br>
+
+                    <p>
+                        <input class="btn btn-lg btn-primary btn-block" type="submit" name="Signin" value="Sign in">
+                    </p>
+
+                </div>
+            }
+
+        </fieldset>
+    </div>
+
+        
+    </body>
+</html>
+
+        @section Scripts {
+            @Scripts.Render("~/bundles/jqueryval")
+        }

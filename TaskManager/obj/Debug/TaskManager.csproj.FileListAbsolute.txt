@@ -1,0 +1,940 @@
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\TaskManager.dll.config
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\TaskManager.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\TaskManager.pdb
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\Antlr3.Runtime.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\DotNetOpenAuth.AspNet.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\DotNetOpenAuth.Core.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\EntityFramework.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\Microsoft.Data.Edm.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\Microsoft.Data.OData.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\Microsoft.Web.Infrastructure.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\Microsoft.Web.WebPages.OAuth.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\Newtonsoft.Json.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Net.Http.Formatting.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Spatial.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Web.Helpers.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Web.Http.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Web.Http.OData.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Web.Http.WebHost.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Web.Mvc.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Web.Optimization.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Web.Razor.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Web.WebPages.Deployment.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Web.WebPages.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Web.WebPages.Razor.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\WebGrease.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\WebMatrix.Data.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\WebMatrix.WebData.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\EntityFramework.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\Newtonsoft.Json.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Net.Http.Formatting.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Web.Helpers.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Web.Http.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Web.Http.WebHost.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Web.Mvc.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Web.Razor.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Web.WebPages.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Web.WebPages.Deployment.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Web.WebPages.Razor.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\WebMatrix.Data.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\Microsoft.Web.WebPages.OAuth.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\WebMatrix.WebData.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\DotNetOpenAuth.AspNet.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\DotNetOpenAuth.Core.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Web.Http.OData.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\Microsoft.Data.Edm.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\Microsoft.Data.OData.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\System.Spatial.xml
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\de\Microsoft.Data.Edm.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\es\Microsoft.Data.Edm.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\fr\Microsoft.Data.Edm.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\it\Microsoft.Data.Edm.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\ja\Microsoft.Data.Edm.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\ko\Microsoft.Data.Edm.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\ru\Microsoft.Data.Edm.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\de\Microsoft.Data.OData.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\es\Microsoft.Data.OData.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\fr\Microsoft.Data.OData.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\it\Microsoft.Data.OData.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\ja\Microsoft.Data.OData.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\ko\Microsoft.Data.OData.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\ru\Microsoft.Data.OData.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\de\System.Spatial.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\es\System.Spatial.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\fr\System.Spatial.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\it\System.Spatial.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\ja\System.Spatial.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\ko\System.Spatial.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\ru\System.Spatial.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\zh-Hans\System.Spatial.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\zh-Hant\System.Spatial.resources.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\obj\Debug\TaskManager.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\obj\Debug\TaskManager.pdb
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\EntityFramework.SqlServer.dll
+c:\users\екатерина шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\bin\EntityFramework.SqlServer.xml
+C:\Users\Екатерина Шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\obj\Debug\TaskManager.csprojResolveAssemblyReference.cache
+C:\Users\Екатерина Шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\obj\Debug\TaskManager.Migrations.SampleMigrations.resources
+C:\Users\Екатерина Шайнурова\documents\visual studio 2013\Projects\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.Cache
+G:\Новая папка (2)\TaskManager\TaskManager\bin\TaskManager.dll.config
+G:\Новая папка (2)\TaskManager\TaskManager\bin\TaskManager.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\TaskManager.pdb
+G:\Новая папка (2)\TaskManager\TaskManager\bin\Antlr3.Runtime.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.AspNet.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.Core.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.Consumer.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\EntityFramework.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\EntityFramework.SqlServer.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Data.Edm.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Data.OData.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Web.Infrastructure.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Web.WebPages.OAuth.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\Newtonsoft.Json.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Net.Http.Formatting.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Spatial.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Helpers.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Http.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Http.OData.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Http.WebHost.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Mvc.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Optimization.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Razor.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.WebPages.Deployment.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.WebPages.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.WebPages.Razor.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\WebGrease.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\WebMatrix.Data.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\WebMatrix.WebData.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\EntityFramework.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\EntityFramework.SqlServer.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\Newtonsoft.Json.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Net.Http.Formatting.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Helpers.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Http.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Http.WebHost.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Mvc.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Razor.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.WebPages.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.WebPages.Deployment.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.WebPages.Razor.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\WebMatrix.Data.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Web.WebPages.OAuth.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\WebMatrix.WebData.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.AspNet.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.Core.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.Consumer.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Http.OData.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Data.Edm.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Data.OData.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\System.Spatial.xml
+G:\Новая папка (2)\TaskManager\TaskManager\bin\de\Microsoft.Data.Edm.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\es\Microsoft.Data.Edm.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\fr\Microsoft.Data.Edm.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\it\Microsoft.Data.Edm.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\ja\Microsoft.Data.Edm.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\ko\Microsoft.Data.Edm.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\ru\Microsoft.Data.Edm.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\de\Microsoft.Data.OData.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\es\Microsoft.Data.OData.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\fr\Microsoft.Data.OData.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\it\Microsoft.Data.OData.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\ja\Microsoft.Data.OData.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\ko\Microsoft.Data.OData.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\ru\Microsoft.Data.OData.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\de\System.Spatial.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\es\System.Spatial.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\fr\System.Spatial.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\it\System.Spatial.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\ja\System.Spatial.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\ko\System.Spatial.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\ru\System.Spatial.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\zh-Hans\System.Spatial.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\zh-Hant\System.Spatial.resources.dll
+G:\Новая папка (2)\TaskManager\TaskManager\obj\Debug\TaskManager.Migrations.SampleMigrations.resources
+G:\Новая папка (2)\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.Cache
+G:\Новая папка (2)\TaskManager\TaskManager\obj\Debug\TaskManager.dll
+G:\Новая папка (2)\TaskManager\TaskManager\obj\Debug\TaskManager.pdb
+G:\Новая папка (2)\TaskManager\TaskManager\bin\EPPlus.dll
+G:\Новая папка (2)\TaskManager\TaskManager\bin\EPPlus.xml
+G:\Новая папка (2)\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.ResolveComReference.cache
+F:\Новая папка (2)\TaskManager\TaskManager\bin\TaskManager.dll.config
+F:\Новая папка (2)\TaskManager\TaskManager\bin\TaskManager.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\TaskManager.pdb
+F:\Новая папка (2)\TaskManager\TaskManager\bin\Antlr3.Runtime.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.AspNet.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.Core.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.Consumer.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\EntityFramework.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\EntityFramework.SqlServer.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\EPPlus.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Data.Edm.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Data.OData.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Web.Infrastructure.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Web.WebPages.OAuth.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\Newtonsoft.Json.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Net.Http.Formatting.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Spatial.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Helpers.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Http.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Http.OData.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Http.WebHost.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Mvc.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Optimization.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Razor.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.WebPages.Deployment.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.WebPages.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.WebPages.Razor.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\WebGrease.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\WebMatrix.Data.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\WebMatrix.WebData.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\EntityFramework.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\EntityFramework.SqlServer.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\EPPlus.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\Newtonsoft.Json.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Net.Http.Formatting.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Helpers.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Http.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Http.WebHost.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Mvc.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Razor.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.WebPages.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.WebPages.Deployment.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.WebPages.Razor.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\WebMatrix.Data.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Web.WebPages.OAuth.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\WebMatrix.WebData.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.AspNet.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.Core.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.Consumer.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Http.OData.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Data.Edm.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Data.OData.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\System.Spatial.xml
+F:\Новая папка (2)\TaskManager\TaskManager\bin\de\Microsoft.Data.Edm.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\es\Microsoft.Data.Edm.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\fr\Microsoft.Data.Edm.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\it\Microsoft.Data.Edm.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\ja\Microsoft.Data.Edm.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\ko\Microsoft.Data.Edm.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\ru\Microsoft.Data.Edm.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\de\Microsoft.Data.OData.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\es\Microsoft.Data.OData.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\fr\Microsoft.Data.OData.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\it\Microsoft.Data.OData.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\ja\Microsoft.Data.OData.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\ko\Microsoft.Data.OData.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\ru\Microsoft.Data.OData.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\de\System.Spatial.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\es\System.Spatial.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\fr\System.Spatial.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\it\System.Spatial.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\ja\System.Spatial.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\ko\System.Spatial.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\ru\System.Spatial.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\zh-Hans\System.Spatial.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\bin\zh-Hant\System.Spatial.resources.dll
+F:\Новая папка (2)\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.ResolveComReference.cache
+F:\Новая папка (2)\TaskManager\TaskManager\obj\Debug\TaskManager.Migrations.SampleMigrations.resources
+F:\Новая папка (2)\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.Cache
+F:\Новая папка (2)\TaskManager\TaskManager\obj\Debug\TaskManager.dll
+F:\Новая папка (2)\TaskManager\TaskManager\obj\Debug\TaskManager.pdb
+F:\Новая папка (2)\TaskManager\TaskManager\obj\Debug\TaskManager.csprojResolveAssemblyReference.cache
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\TaskManager.dll.config
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\TaskManager.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\TaskManager.pdb
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\Antlr3.Runtime.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.Core.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\EntityFramework.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\EntityFramework.SqlServer.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\EPPlus.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Data.Edm.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Data.OData.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\Newtonsoft.Json.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Net.Http.Formatting.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Spatial.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Helpers.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Http.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Http.OData.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Http.WebHost.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Mvc.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Optimization.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Razor.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.WebPages.Deployment.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.WebPages.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.WebPages.Razor.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\WebGrease.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\WebMatrix.Data.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\WebMatrix.WebData.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\EntityFramework.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\EntityFramework.SqlServer.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\EPPlus.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\Newtonsoft.Json.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Net.Http.Formatting.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Helpers.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Http.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Http.WebHost.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Mvc.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Razor.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.WebPages.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.WebPages.Deployment.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.WebPages.Razor.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\WebMatrix.Data.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\WebMatrix.WebData.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.Core.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Web.Http.OData.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Data.Edm.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\Microsoft.Data.OData.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\System.Spatial.xml
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\de\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\es\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\fr\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\it\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\ja\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\ko\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\ru\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.ResolveComReference.cache
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\obj\Debug\TaskManager.Migrations.SampleMigrations.resources
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.Cache
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\obj\Debug\TaskManager.dll
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\obj\Debug\TaskManager.pdb
+C:\Users\n.avetisova\Desktop\Новая папка (2)\TaskManager\TaskManager\obj\Debug\TaskManager.csprojResolveAssemblyReference.cache
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\TaskManager.dll.config
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\TaskManager.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\TaskManager.pdb
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\Antlr3.Runtime.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\DotNetOpenAuth.Core.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\EntityFramework.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\EntityFramework.SqlServer.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\EPPlus.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\Microsoft.Data.Edm.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\Microsoft.Data.OData.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\Newtonsoft.Json.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Net.Http.Formatting.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Spatial.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Web.Helpers.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Web.Http.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Web.Http.OData.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Web.Http.WebHost.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Web.Mvc.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Web.Optimization.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Web.Razor.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Web.WebPages.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Web.WebPages.Razor.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\WebGrease.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\WebMatrix.Data.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\WebMatrix.WebData.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\EntityFramework.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\EntityFramework.SqlServer.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\EPPlus.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\Newtonsoft.Json.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Net.Http.Formatting.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Web.Helpers.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Web.Http.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Web.Http.WebHost.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Web.Mvc.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Web.Razor.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Web.WebPages.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Web.WebPages.Razor.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\WebMatrix.Data.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\WebMatrix.WebData.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\DotNetOpenAuth.Core.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Web.Http.OData.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\Microsoft.Data.Edm.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\Microsoft.Data.OData.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\System.Spatial.xml
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\de\System.Spatial.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\es\System.Spatial.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\fr\System.Spatial.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\it\System.Spatial.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\ja\System.Spatial.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\ko\System.Spatial.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\ru\System.Spatial.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.csprojResolveAssemblyReference.cache
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.ResolveComReference.cache
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.Migrations.SampleMigrations.resources
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.Cache
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.dll
+C:\Users\Екатерина Шайнурова\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.pdb
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\TaskManager.dll.config
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\TaskManager.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\TaskManager.pdb
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\Antlr3.Runtime.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\DotNetOpenAuth.Core.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\EntityFramework.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\EntityFramework.SqlServer.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\EPPlus.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\Microsoft.Data.Edm.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\Microsoft.Data.OData.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\Newtonsoft.Json.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Net.Http.Formatting.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Spatial.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Web.Helpers.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Web.Http.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Web.Http.OData.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Web.Http.WebHost.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Web.Mvc.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Web.Optimization.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Web.Razor.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Web.WebPages.Deployment.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Web.WebPages.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Web.WebPages.Razor.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\WebGrease.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\WebMatrix.Data.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\WebMatrix.WebData.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\EntityFramework.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\EntityFramework.SqlServer.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\EPPlus.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\Newtonsoft.Json.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Net.Http.Formatting.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Web.Helpers.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Web.Http.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Web.Http.WebHost.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Web.Mvc.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Web.Razor.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Web.WebPages.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Web.WebPages.Deployment.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Web.WebPages.Razor.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\WebMatrix.Data.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\WebMatrix.WebData.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\DotNetOpenAuth.Core.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Web.Http.OData.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\Microsoft.Data.Edm.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\Microsoft.Data.OData.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\System.Spatial.xml
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\de\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\es\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\fr\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\it\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\ja\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\ko\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\ru\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\obj\Debug\TaskManager.csprojResolveAssemblyReference.cache
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.ResolveComReference.cache
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\obj\Debug\TaskManager.Migrations.SampleMigrations.resources
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.Cache
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\obj\Debug\TaskManager.dll
+C:\Users\n.avetisova\Desktop\Новая папка\TaskManager\TaskManager\obj\Debug\TaskManager.pdb
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\TaskManager.dll.config
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\TaskManager.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\TaskManager.pdb
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\Antlr3.Runtime.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.AspNet.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.Core.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.Consumer.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\EntityFramework.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\EntityFramework.SqlServer.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\EPPlus.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\Microsoft.Data.Edm.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\Microsoft.Data.OData.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\Microsoft.Web.Infrastructure.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\Microsoft.Web.WebPages.OAuth.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\Newtonsoft.Json.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Net.Http.Formatting.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Spatial.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Helpers.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Http.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Http.OData.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Http.WebHost.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Mvc.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Optimization.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Razor.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.WebPages.Deployment.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.WebPages.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.WebPages.Razor.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\WebGrease.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\WebMatrix.Data.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\WebMatrix.WebData.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\EntityFramework.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\EntityFramework.SqlServer.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\EPPlus.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\Newtonsoft.Json.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Net.Http.Formatting.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Helpers.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Http.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Http.WebHost.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Mvc.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Razor.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.WebPages.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.WebPages.Deployment.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.WebPages.Razor.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\WebMatrix.Data.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\Microsoft.Web.WebPages.OAuth.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\WebMatrix.WebData.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.AspNet.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.Core.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.Consumer.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Http.OData.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\Microsoft.Data.Edm.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\Microsoft.Data.OData.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Spatial.xml
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\de\Microsoft.Data.Edm.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\es\Microsoft.Data.Edm.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\fr\Microsoft.Data.Edm.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\it\Microsoft.Data.Edm.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\ja\Microsoft.Data.Edm.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\ko\Microsoft.Data.Edm.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\ru\Microsoft.Data.Edm.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\de\Microsoft.Data.OData.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\es\Microsoft.Data.OData.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\fr\Microsoft.Data.OData.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\it\Microsoft.Data.OData.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\ja\Microsoft.Data.OData.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\ko\Microsoft.Data.OData.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\ru\Microsoft.Data.OData.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\de\System.Spatial.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\es\System.Spatial.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\fr\System.Spatial.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\it\System.Spatial.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\ja\System.Spatial.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\ko\System.Spatial.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\ru\System.Spatial.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\zh-Hans\System.Spatial.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\bin\zh-Hant\System.Spatial.resources.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.csprojResolveAssemblyReference.cache
+G:\Новая папка\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.ResolveComReference.cache
+G:\Новая папка\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.Migrations.SampleMigrations.resources
+G:\Новая папка\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.Cache
+G:\Новая папка\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.dll
+G:\Новая папка\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.pdb
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\TaskManager.dll.config
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\TaskManager.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\TaskManager.pdb
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\Antlr3.Runtime.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.AspNet.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.Core.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.Consumer.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\EntityFramework.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\EntityFramework.SqlServer.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\EPPlus.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\Microsoft.Data.Edm.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\Microsoft.Data.OData.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\Microsoft.Web.Infrastructure.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\Microsoft.Web.WebPages.OAuth.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\Newtonsoft.Json.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Net.Http.Formatting.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Spatial.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Helpers.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Http.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Http.OData.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Http.WebHost.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Mvc.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Optimization.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Razor.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.WebPages.Deployment.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.WebPages.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.WebPages.Razor.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\WebGrease.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\WebMatrix.Data.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\WebMatrix.WebData.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\EntityFramework.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\EntityFramework.SqlServer.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\EPPlus.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\Newtonsoft.Json.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Net.Http.Formatting.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Helpers.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Http.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Http.WebHost.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Mvc.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Razor.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.WebPages.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.WebPages.Deployment.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.WebPages.Razor.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\WebMatrix.Data.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\Microsoft.Web.WebPages.OAuth.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\WebMatrix.WebData.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.AspNet.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.Core.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.Consumer.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.OAuth.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Web.Http.OData.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\Microsoft.Data.Edm.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\Microsoft.Data.OData.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\System.Spatial.xml
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\de\Microsoft.Data.Edm.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\es\Microsoft.Data.Edm.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\fr\Microsoft.Data.Edm.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\it\Microsoft.Data.Edm.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\ja\Microsoft.Data.Edm.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\ko\Microsoft.Data.Edm.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\ru\Microsoft.Data.Edm.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\de\Microsoft.Data.OData.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\es\Microsoft.Data.OData.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\fr\Microsoft.Data.OData.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\it\Microsoft.Data.OData.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\ja\Microsoft.Data.OData.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\ko\Microsoft.Data.OData.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\ru\Microsoft.Data.OData.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\de\System.Spatial.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\es\System.Spatial.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\fr\System.Spatial.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\it\System.Spatial.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\ja\System.Spatial.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\ko\System.Spatial.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\ru\System.Spatial.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\zh-Hans\System.Spatial.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\bin\zh-Hant\System.Spatial.resources.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.csprojResolveAssemblyReference.cache
+F:\Новая папка\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.ResolveComReference.cache
+F:\Новая папка\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.Migrations.SampleMigrations.resources
+F:\Новая папка\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.Cache
+F:\Новая папка\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.dll
+F:\Новая папка\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.pdb
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\TaskManager.dll.config
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\TaskManager.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\TaskManager.pdb
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\Antlr3.Runtime.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\DotNetOpenAuth.Core.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\EntityFramework.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\EntityFramework.SqlServer.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\EPPlus.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\Microsoft.Data.Edm.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\Microsoft.Data.OData.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\Newtonsoft.Json.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Net.Http.Formatting.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Spatial.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Web.Helpers.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Web.Http.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Web.Http.OData.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Web.Http.WebHost.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Web.Mvc.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Web.Optimization.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Web.Razor.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Web.WebPages.Deployment.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Web.WebPages.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Web.WebPages.Razor.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\WebGrease.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\WebMatrix.Data.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\WebMatrix.WebData.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\EntityFramework.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\EntityFramework.SqlServer.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\EPPlus.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\Newtonsoft.Json.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Net.Http.Formatting.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Web.Helpers.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Web.Http.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Web.Http.WebHost.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Web.Mvc.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Web.Razor.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Web.WebPages.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Web.WebPages.Deployment.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Web.WebPages.Razor.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\WebMatrix.Data.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\WebMatrix.WebData.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\DotNetOpenAuth.Core.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Web.Http.OData.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\Microsoft.Data.Edm.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\Microsoft.Data.OData.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\System.Spatial.xml
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\de\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\es\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\fr\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\it\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\ja\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\ko\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\ru\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\obj\Debug\TaskManager.csprojResolveAssemblyReference.cache
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\obj\Debug\TaskManager.csproj.ResolveComReference.cache
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\obj\Debug\TaskManager.Migrations.SampleMigrations.resources
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.Cache
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\obj\Debug\TaskManager.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\obj\Debug\TaskManager.pdb
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\DocumentFormat.OpenXml.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\Spire.Common.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\Spire.License.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\Spire.Pdf.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\Spire.XLS.dll
+C:\Users\n.avetisova\Desktop\last Version\TaskManager\bin\DocumentFormat.OpenXml.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\TaskManager.dll.config
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\TaskManager.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\TaskManager.pdb
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\Antlr3.Runtime.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\DocumentFormat.OpenXml.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\DotNetOpenAuth.Core.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\EntityFramework.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\EntityFramework.SqlServer.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\EPPlus.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\Microsoft.Data.Edm.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\Microsoft.Data.OData.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\Newtonsoft.Json.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\Spire.Common.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\Spire.License.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\Spire.Pdf.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\Spire.XLS.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Net.Http.Formatting.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Spatial.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Web.Helpers.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Web.Http.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Web.Http.OData.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Web.Http.WebHost.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Web.Mvc.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Web.Optimization.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Web.Razor.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Web.WebPages.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Web.WebPages.Razor.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\WebGrease.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\WebMatrix.Data.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\WebMatrix.WebData.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\DocumentFormat.OpenXml.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\EntityFramework.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\EntityFramework.SqlServer.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\EPPlus.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\Newtonsoft.Json.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Net.Http.Formatting.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Web.Helpers.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Web.Http.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Web.Http.WebHost.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Web.Mvc.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Web.Razor.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Web.WebPages.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Web.WebPages.Razor.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\WebMatrix.Data.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\WebMatrix.WebData.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\DotNetOpenAuth.Core.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Web.Http.OData.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\Microsoft.Data.Edm.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\Microsoft.Data.OData.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\System.Spatial.xml
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\de\System.Spatial.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\es\System.Spatial.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\fr\System.Spatial.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\it\System.Spatial.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\ja\System.Spatial.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\ko\System.Spatial.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\ru\System.Spatial.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\obj\Debug\TaskManager.csprojResolveAssemblyReference.cache
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\obj\Debug\TaskManager.csproj.ResolveComReference.cache
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\obj\Debug\TaskManager.Migrations.SampleMigrations.resources
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.Cache
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\obj\Debug\TaskManager.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\obj\Debug\TaskManager.pdb
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\bin\Microsoft.mshtml.dll
+C:\Users\Екатерина Шайнурова\Desktop\manager-master\TaskManager\obj\Debug\TaskManager.csproj.CoreCompileInputs.cache

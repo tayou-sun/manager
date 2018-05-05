@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/Site.css")
+        @Scripts.Render("~/bundles/modernizr")
+        @Scripts.Render("~/Scripts/source.js")
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
+
+        <style>
+            body {
+                /*background: url(/Images/1.jpg) no-repeat;
+                background-size: 100%; /* Современные браузеры */
+            }
+            .month {
+                padding: 70px 25px;
+                width: 100%;
+                background: #1abc9c;
+                text-align: center;
+            }
+
+                /* Month list */
+                .month ul {
+                    margin: 0;
+                    padding: 0;
+                }
+
+                    .month ul li {
+                        color: white;
+                        font-size: 20px;
+                        text-transform: uppercase;
+                        letter-spacing: 3px;
+                    }
+
+                /* Previous button inside month header */
+                .month .prev {
+                    float: left;
+                    padding-top: 10px;
+                }
+
+                /* Next button */
+                .month .next {
+                    float: right;
+                    padding-top: 10px;
+                }
+
+            /* Weekdays (Mon-Sun) */
+            .weekdays {
+                margin: 0;
+                padding: 10px 0;
+                background-color: #ddd;
+            }
+
+                .weekdays li {
+                    display: inline-block;
+                    width: 13.6%;
+                    color: #666;
+                    text-align: center;
+                }
+
+            /* Days (1-31) */
+            .days {
+                padding: 10px 0;
+                background: #eee;
+                margin: 0;
+            }
+            #ae {
+                background-color: rgb(225, 229, 235) !important;
+                 min-height: 70px !important;
+                padding-left: 70px;
+                /*border-bottom: 2px solid lightgrey;*/
+            }
+
+                .days li {
+                    list-style-type: none;
+                    display: inline-block;
+                    width: 13.6%;
+                    text-align: center;
+                    margin-bottom: 5px;
+                    font-size: 12px;
+                    color: #777;
+                }
+
+                    /* Highlight the "current" day */
+                    .days li .active {
+                        padding: 5px;
+                        background: #1abc9c;
+                        color: white !important;
+                    }
+            .agenda tr:hover {
+                background-color: #ffff99;
+            }
+        </style>
+    </head>
+<body onload="Init()">
+
+    @*<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="/Home/Index"> Пользователи</a>
+                    </li>
+                    <li class="active">
+                        <a href="/Home/a"> Пользователи</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>*@
+<header class="menu">
+    <nav class="navbar navbar-fixed-left navbar-minimal animate" role="navigation">
+        <div class="navbar-toggler animate">
+            <span class="menu-icon"></span>
+        </div>
+        <ul class="navbar-menu animate">
+            <li>
+                <a href="/Home/Index" class="animate">
+                    <span class="desc animate"> ViewBag.User </span>
+                    <span class="glyphicon glyphicon-user"></span>
+                </a>
+            </li>
+            <li>
+                <a href="/Home/GetCalendar" class="animate">
+                    <span class="desc animate">  Calendar</span>
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#contact-us" class="animate">
+                    <span class="desc animate"> How To Reach Us </span>
+                    <span class="glyphicon glyphicon-comment"></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+ 
+</header>
+    <div style="">
+        <nav id="ae" class="navbar navbar-light" style=" background: url(/Images/3.jpg) no-repeat; min-height: 64px !important; padding-left: 70px;">
+            <p class="font-weight-normal" style=" font-size: 20px; padding-top: 15px; padding-left: 30px; color: #333;"> Hello, @ViewBag.Name</p>
+        </nav>
+    </div>
+
+    <div class="container" style ="width:90% !important">
+        
+        @RenderBody()
+    </div>
+
+
+    @*<div class="container" style=" padding-top: 60px;">
+
+
+        </div>*@
+
+    <footer></footer>
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
